@@ -9,6 +9,9 @@ One of the major drawback of our society is the barrier that is created between 
 2. This features is to be considered as test data to previously trained dataset using advanced Machine Learning Models and thus a prediction of hand sign is made
 3. Thus, the input video is stream is converted to human readable form sentences with meaning
 
+## System Framework Diagram
+<img src="SCREENSHOTS/SystemFrameworkDiagram.png"> 
+
 ## Tool Used
 > OPEN-CV
 
@@ -137,12 +140,9 @@ The histogram of oriented gradients (HOG) is a feature descriptor used in comput
 A Machine Learning Model that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and use averaging to improve the predictive accuracy and control over-fitting.
 ## Results
 Below are few of the predicted results from the trained model
-<table>  
-  <tr>
-    <td> <img src="SCREENSHOT/PREDICTED6.png" width="200"> </td>
-    <td> <img src="SCREENSHOT/PREDICTED7.png" width="200"> </td>
-  </tr>
-</table>
+
+<img src="SCREENSHOTS/PREDICTED6.png" width="600">
+<img src="SCREENSHOTS/PREDICTED7.png" width="600">
 
 ## Future Work
 1. Extending the above ideology to all symbols of Indian Sign Language
